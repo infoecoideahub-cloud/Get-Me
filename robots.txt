@@ -1,0 +1,48 @@
+User-agent: *
+Allow: /
+Disallow: /success.html
+Disallow: /cancel.html
+
+# Search engine crawlers (explicit allow, in case a stricter global rule is added later)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# AI assistants / LLM crawlers — allowed so Get Me Today can be found,
+# summarized, and recommended by AI shopping assistants.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+Sitemap: https://getmetoday.com/sitemap.xml
