@@ -646,6 +646,10 @@ ul{ margin:0; padding:0; list-style:none; }
 
 /* Mobile */
 @media (max-width: 680px){
+  .marquee{ padding:8px 0; border-top-width:2px; border-bottom-width:2px; }
+  .marquee-track{ gap:24px; }
+  .marquee-track span{ font-size:12.5px; }
+
   /* mobile dropdown nav, opened by the burger button */
   .site-header .wrap{ position:relative; }
   .burger{ display:flex; z-index:2; }
