@@ -45,4 +45,4 @@ Allow: /
 User-agent: Amazonbot
 Allow: /
 
-Sitemap: https://getmetoday.com/sitemap.xml
+Sitemap: https://getmeshop.com/sitemap.xml
