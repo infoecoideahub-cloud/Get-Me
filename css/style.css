@@ -149,7 +149,7 @@ ul{ margin:0; padding:0; list-style:none; }
 /* ---------- hero ---------- */
 .hero{
   position:relative;
-  background:url('assets/hero-bg.jpg?v=2') center/cover no-repeat;
+  background:linear-gradient(120deg, #2f6bff 0%, #6a4ce0 45%, #9b5cf0 100%);
   overflow:hidden;
 }
 .hero-inner{
