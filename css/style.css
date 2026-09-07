@@ -80,14 +80,14 @@ ul{ margin:0; padding:0; list-style:none; }
 }
 
 /* ---------- social topbar (above header) ---------- */
-.topbar{ background:#000; padding:7px 0; }
-.topbar .wrap{ display:flex; align-items:center; justify-content:flex-end; gap:16px; }
+.topbar{ background:#000; padding:8px 0; }
+.topbar .wrap{ display:flex; align-items:center; justify-content:flex-end; gap:18px; }
 .topbar a{
   color:rgba(255,255,255,.75); display:flex; align-items:center; justify-content:center;
-  width:22px; height:22px; transition:color .15s ease, transform .15s ease;
+  width:28px; height:28px; transition:color .15s ease, transform .15s ease;
 }
 .topbar a:hover{ color:#fff; transform:translateY(-1px); }
-.topbar svg{ width:16px; height:16px; }
+.topbar svg{ width:20px; height:20px; }
 
 /* ---------- header ---------- */
 .site-header{
@@ -149,7 +149,7 @@ ul{ margin:0; padding:0; list-style:none; }
 /* ---------- hero ---------- */
 .hero{
   position:relative;
-  background:url('assets/hero-bg.jpg') center/cover no-repeat;
+  background:url('assets/hero-bg.jpg?v=2') center/cover no-repeat;
   overflow:hidden;
 }
 .hero-inner{
